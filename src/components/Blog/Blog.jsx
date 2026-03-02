@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { LuBookmark } from "react-icons/lu";
 
-const Blog = ({ blog, handleAddToBookmak }) => {
+const Blog = ({ blog, handleAddToBookmark, handleAddToMarkAsRead }) => {
     const { title, img, author, author_img, date, readingtime, hashtags } = blog;
     return (
         <div className='py-8'>
@@ -19,7 +19,7 @@ const Blog = ({ blog, handleAddToBookmak }) => {
 
                 <div className='flex items-center gap-2'>
                     <span className='text-[rgba(17,17,17,0.6)]'>{readingtime} min read</span>
-                    <button onClick={() => { handleAddToBookmak(blog) }} className='text-red-600'><LuBookmark></LuBookmark></button>
+                    <button onClick={() => handleAddToBookmark(blog)} className='text-red-600'><LuBookmark></LuBookmark></button>
                 </div>
 
             </div>
@@ -32,14 +32,15 @@ const Blog = ({ blog, handleAddToBookmak }) => {
                 }
             </p>
 
-            <button className='btn text-[#6047EC] font-semibold text-xl'><u>Mark as read</u></button>
+            <button onClick={() => handleAddToMarkAsRead(readingtime)} className='btn text-[#6047EC] font-semibold text-xl'><u>Mark as read</u></button>
         </div>
     );
 };
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleAddToBookmak: PropTypes.func.isRequired
+    handleAddToBookmark: PropTypes.func.isRequired,
+    handleAddToMarkAsRead: PropTypes.func.isRequired
 }
 
 export default Blog;
