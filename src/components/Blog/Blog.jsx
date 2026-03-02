@@ -1,11 +1,11 @@
-import { space } from 'postcss/lib/list';
 import PropTypes from 'prop-types';
+import { LuBookmark } from "react-icons/lu";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmak }) => {
     const { title, img, author, author_img, date, readingtime, hashtags } = blog;
     return (
         <div className='py-8'>
-            <img className='rounded-lg' src={img} alt="" />
+            <img className='rounded-lg w-full' src={img} alt="" />
 
             <div className='flex justify-between mt-10'>
 
@@ -17,8 +17,9 @@ const Blog = ({ blog }) => {
                     </div>
                 </div>
 
-                <div>
+                <div className='flex items-center gap-2'>
                     <span className='text-[rgba(17,17,17,0.6)]'>{readingtime} min read</span>
+                    <button onClick={() => { handleAddToBookmak(blog) }} className='text-red-600'><LuBookmark></LuBookmark></button>
                 </div>
 
             </div>
@@ -37,7 +38,8 @@ const Blog = ({ blog }) => {
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleAddToBookmak: PropTypes.func.isRequired
 }
 
 export default Blog;
