@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "img": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=1200&h=675&fit=crop&auto=format",
+    "title": "The Art of Deep Work in a Distracted World",
+    "author": "Emma Richardson",
+    "author_img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=300&fit=crop&auto=format",
+    "posted": "productivity journal",
+    "date": "2026-02-10",
+    "readingtime": 7,
+    "hashtags": ["#productivity", "#focus", "#selfgrowth"]
+  },
+  {
+    "id": 2,
+    "img": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&h=675&fit=crop&auto=format",
+    "title": "Morning Routines of Creative Thinkers",
+    "author": "Daniel Foster",
+    "author_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&auto=format",
+    "posted": "lifestyle weekly",
+    "date": "2026-01-25",
+    "readingtime": 6,
+    "hashtags": ["#morningroutine", "#lifestyle", "#habits"]
+  },
+  {
+    "id": 3,
+    "img": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1200&h=675&fit=crop&auto=format",
+    "title": "Minimal Workspace, Maximum Creativity",
+    "author": "Sophia Carter",
+    "author_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=300&fit=crop&auto=format",
+    "posted": "creative space",
+    "date": "2026-02-18",
+    "readingtime": 8,
+    "hashtags": ["#workspace", "#minimalism", "#creativity"]
+  },
+  {
+    "id": 4,
+    "img": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&h=675&fit=crop&auto=format",
+    "title": "How Traveling Changes Your Perspective",
+    "author": "Liam Bennett",
+    "author_img": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&h=300&fit=crop&auto=format",
+    "posted": "wander stories",
+    "date": "2026-02-05",
+    "readingtime": 5,
+    "hashtags": ["#travel", "#adventure", "#mindset"]
+  },
+  {
+    "id": 5,
+    "img": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1200&h=675&fit=crop&auto=format",
+    "title": "Building Better Digital Habits",
+    "author": "Olivia Morgan",
+    "author_img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&auto=format",
+    "posted": "modern living",
+    "date": "2026-01-30",
+    "readingtime": 6,
+    "hashtags": ["#digitalwellness", "#technology", "#balance"]
+  }
+]
