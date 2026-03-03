@@ -45,5 +45,3 @@ Since this is my first React project, I practiced:
 - JSON (for blog data)
 
 ---
-
-## 📂 Project Structure
